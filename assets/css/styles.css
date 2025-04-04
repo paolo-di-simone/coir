@@ -1,0 +1,67 @@
+/* Impostiamo Montserrat come font di base */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #840704;
+    font-weight: bold;
+}
+
+/* Barra di navigazione con più padding */
+.custom-navbar {
+    padding: 1.5% 4%;
+}
+
+/* Hero Section */
+#hero {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Barra di navigazione */
+.navbar {
+    border-bottom: 2px solid #ddd;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+.form-control:focus, textarea:focus {
+    box-shadow: 0px 0px 5px 2px rgba(132, 7, 4, 0.5);
+    /* Ombra più trasparente */
+    border-color: #840704;
+    outline: none;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+#cookieConsent {
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#cookieConsent p {
+    margin-bottom: 0;
+}
+
+#cookieConsent button {
+    font-size: 14px;
+    padding: 5px 15px;
+}
+
+.image-card img {
+    max-height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.image-card img:hover {
+    transform: scale(1.05);
+}
